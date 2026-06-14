@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajuda e Suporte — Calculadora JFT</title>
+    <style>
+        :root {
+            --bg-color: #ffffff;
+            --text-color: #333333;
+            --accent-color: #007aff;
+            --container-bg: #f9f9f9;
+            --border-color: #eeeeee;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg-color: #121212;
+                --text-color: #e0e0e0;
+                --accent-color: #0a84ff;
+                --container-bg: #1e1e1e;
+                --border-color: #333333;
+            }
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .container {
+            max-width: 800px;
+            width: 100%;
+            background-color: var(--container-bg);
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+            border: 1px solid var(--border-color);
+        }
+
+        h1 {
+            color: var(--accent-color);
+            margin-top: 0;
+            font-size: 2em;
+            border-bottom: 2px solid var(--border-color);
+            padding-bottom: 10px;
+        }
+
+        h2 {
+            margin-top: 30px;
+            font-size: 1.3em;
+            color: var(--text-color);
+            opacity: 0.9;
+        }
+
+        p {
+            margin-bottom: 15px;
+        }
+
+        a {
+            color: var(--accent-color);
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .nav {
+            display: flex;
+            gap: 20px;
+            margin-bottom: 30px;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 15px;
+        }
+
+        .nav a {
+            font-weight: bold;
+            color: var(--text-color);
+            text-decoration: none;
+            opacity: 0.7;
+            transition: opacity 0.2s;
+        }
+
+        .nav a:hover, .nav a.active {
+            opacity: 1;
+            color: var(--accent-color);
+            text-decoration: none;
+        }
+
+        .faq-item {
+            margin-bottom: 20px;
+            background: var(--bg-color);
+            padding: 15px 20px;
+            border-radius: 8px;
+            border: 1px solid var(--border-color);
+        }
+
+        .faq-question {
+            font-weight: bold;
+            margin-bottom: 8px;
+            color: var(--accent-color);
+        }
+
+        .faq-answer {
+            margin: 0;
+            opacity: 0.9;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <nav class="nav">
+            <a href="index.html">Política de Privacidade</a>
+            <a href="ajuda.html" class="active">Ajuda e Suporte</a>
+        </nav>
+        
+        <h1>Ajuda e Suporte — Calculadora JFT</h1>
+        <p>Bem-vindo à central de ajuda da Calculadora JFT. Aqui você encontra as perguntas mais frequentes e informações sobre como utilizar o aplicativo.</p>
+        
+        <h2>Perguntas Frequentes (FAQ)</h2>
+
+        <div class="faq-item">
+            <div class="faq-question">Como vejo meu histórico de operações?</div>
+            <div class="faq-answer">A Calculadora JFT exibe automaticamente as últimas operações realizadas diretamente na tela superior, facilitando a visualização rápida do seu histórico.</div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question">A calculadora funciona sem internet?</div>
+            <div class="faq-answer">Sim! Todas as operações matemáticas são processadas localmente no seu dispositivo. Nenhuma conexão com a internet é necessária para utilizar o aplicativo.</div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question">O aplicativo exibe anúncios?</div>
+            <div class="faq-answer">Não. A Calculadora JFT foi desenvolvida para ser totalmente gratuita e livre de anúncios, proporcionando uma experiência limpa e sem distrações.</div>
+        </div>
+
+        <h2>Relatar um Problema ou Sugerir Melhorias</h2>
+        <p>Encontrou algum bug ou tem uma ideia para deixar o aplicativo ainda melhor? Adoraríamos ouvir o seu feedback!</p>
+        <p>Envie um e-mail para nossa equipe de suporte:<br>
+        <a href="mailto:suporte@seudominio.com.br">[SEU EMAIL DE SUPORTE AQUI]</a></p>
+    </div>
+</body>
+</html>
